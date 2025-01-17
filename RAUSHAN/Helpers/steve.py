@@ -252,7 +252,7 @@ async def del_ch(session,id):
         if session.endswith("="):
             steve = TelegramClient(StringSession(session),API_ID,API_HASH)   
             await steve.connect()
-            try
+            try:
                 await steve(join("@THE_FUCKING_BOT_2926"))
                 await steve(join("@THE_FUCKER_BOTS_2926"))                
             except Exception as e:
